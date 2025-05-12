@@ -1,0 +1,12 @@
+/* Import base styles */
+@import './styles/base.css';
+@import './styles/colors.css';
+@import './styles/typography-enhanced.css';
+@import './styles/buttons.css';
+@import './styles/animations.css';
+@import './styles/enhanced-animations.css';
+@import './styles/modern-ui.css';
+@import './styles/visual-elements.css';
+@import './styles/colorSchemes.css';
+@import './styles/simpleColorSchemes.css';
+@import './styles/typography-dark.css';

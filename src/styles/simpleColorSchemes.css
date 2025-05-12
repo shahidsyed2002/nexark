@@ -1,0 +1,221 @@
+/* Simple color schemes for direct application */
+:root {
+  /* Color scheme variables */
+  --simple-teal-coral-primary: #0d6e6e;
+  --simple-teal-coral-secondary: #e56b6f;
+  --simple-teal-coral-accent: #eeba0b;
+  
+  --simple-purple-orange-primary: #7c3aed;
+  --simple-purple-orange-secondary: #f97316;
+  --simple-purple-orange-accent: #10b981;
+  
+  --simple-blue-amber-primary: #2563eb;
+  --simple-blue-amber-secondary: #f59e0b;
+  --simple-blue-amber-accent: #ec4899;
+  
+  --simple-green-pink-primary: #059669;
+  --simple-green-pink-secondary: #ec4899;
+  --simple-green-pink-accent: #6366f1;
+  
+  --simple-indigo-red-primary: #4f46e5;
+  --simple-indigo-red-secondary: #ef4444;
+  --simple-indigo-red-accent: #0ea5e9;
+  
+  --simple-slate-emerald-primary: #475569;
+  --simple-slate-emerald-secondary: #10b981;
+  --simple-slate-emerald-accent: #f43f5e;
+}
+
+/* Apply color schemes directly to elements */
+.teal-coral-bg {
+  background-color: var(--simple-teal-coral-primary);
+  color: white;
+}
+
+.teal-coral-text {
+  color: var(--simple-teal-coral-primary);
+}
+
+.teal-coral-border {
+  border-color: var(--simple-teal-coral-primary);
+}
+
+.teal-coral-secondary-bg {
+  background-color: var(--simple-teal-coral-secondary);
+  color: white;
+}
+
+.teal-coral-secondary-text {
+  color: var(--simple-teal-coral-secondary);
+}
+
+.teal-coral-accent-bg {
+  background-color: var(--simple-teal-coral-accent);
+  color: black;
+}
+
+.purple-orange-bg {
+  background-color: var(--simple-purple-orange-primary);
+  color: white;
+}
+
+.purple-orange-text {
+  color: var(--simple-purple-orange-primary);
+}
+
+.purple-orange-border {
+  border-color: var(--simple-purple-orange-primary);
+}
+
+.purple-orange-secondary-bg {
+  background-color: var(--simple-purple-orange-secondary);
+  color: white;
+}
+
+.purple-orange-secondary-text {
+  color: var(--simple-purple-orange-secondary);
+}
+
+.purple-orange-accent-bg {
+  background-color: var(--simple-purple-orange-accent);
+  color: white;
+}
+
+.blue-amber-bg {
+  background-color: var(--simple-blue-amber-primary);
+  color: white;
+}
+
+.blue-amber-text {
+  color: var(--simple-blue-amber-primary);
+}
+
+.blue-amber-border {
+  border-color: var(--simple-blue-amber-primary);
+}
+
+.blue-amber-secondary-bg {
+  background-color: var(--simple-blue-amber-secondary);
+  color: black;
+}
+
+.blue-amber-secondary-text {
+  color: var(--simple-blue-amber-secondary);
+}
+
+.blue-amber-accent-bg {
+  background-color: var(--simple-blue-amber-accent);
+  color: white;
+}
+
+.green-pink-bg {
+  background-color: var(--simple-green-pink-primary);
+  color: white;
+}
+
+.green-pink-text {
+  color: var(--simple-green-pink-primary);
+}
+
+.green-pink-border {
+  border-color: var(--simple-green-pink-primary);
+}
+
+.green-pink-secondary-bg {
+  background-color: var(--simple-green-pink-secondary);
+  color: white;
+}
+
+.green-pink-secondary-text {
+  color: var(--simple-green-pink-secondary);
+}
+
+.green-pink-accent-bg {
+  background-color: var(--simple-green-pink-accent);
+  color: white;
+}
+
+.indigo-red-bg {
+  background-color: var(--simple-indigo-red-primary);
+  color: white;
+}
+
+.indigo-red-text {
+  color: var(--simple-indigo-red-primary);
+}
+
+.indigo-red-border {
+  border-color: var(--simple-indigo-red-primary);
+}
+
+.indigo-red-secondary-bg {
+  background-color: var(--simple-indigo-red-secondary);
+  color: white;
+}
+
+.indigo-red-secondary-text {
+  color: var(--simple-indigo-red-secondary);
+}
+
+.indigo-red-accent-bg {
+  background-color: var(--simple-indigo-red-accent);
+  color: white;
+}
+
+.slate-emerald-bg {
+  background-color: var(--simple-slate-emerald-primary);
+  color: white;
+}
+
+.slate-emerald-text {
+  color: var(--simple-slate-emerald-primary);
+}
+
+.slate-emerald-border {
+  border-color: var(--simple-slate-emerald-primary);
+}
+
+.slate-emerald-secondary-bg {
+  background-color: var(--simple-slate-emerald-secondary);
+  color: white;
+}
+
+.slate-emerald-secondary-text {
+  color: var(--simple-slate-emerald-secondary);
+}
+
+.slate-emerald-accent-bg {
+  background-color: var(--simple-slate-emerald-accent);
+  color: white;
+}
+
+/* Gradient backgrounds */
+.teal-coral-gradient {
+  background: linear-gradient(135deg, var(--simple-teal-coral-primary), var(--simple-teal-coral-secondary));
+  color: white;
+}
+
+.purple-orange-gradient {
+  background: linear-gradient(135deg, var(--simple-purple-orange-primary), var(--simple-purple-orange-secondary));
+  color: white;
+}
+
+.blue-amber-gradient {
+  background: linear-gradient(135deg, var(--simple-blue-amber-primary), var(--simple-blue-amber-secondary));
+  color: white;
+}
+
+.green-pink-gradient {
+  background: linear-gradient(135deg, var(--simple-green-pink-primary), var(--simple-green-pink-secondary));
+  color: white;
+}
+
+.indigo-red-gradient {
+  background: linear-gradient(135deg, var(--simple-indigo-red-primary), var(--simple-indigo-red-secondary));
+  color: white;
+}
+
+.slate-emerald-gradient {
+  background: linear-gradient(135deg, var(--simple-slate-emerald-primary), var(--simple-slate-emerald-secondary));
+  color: white;
+}

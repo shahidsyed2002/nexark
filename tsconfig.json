@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": [
+    "src/**/*", // Include all TypeScript and JavaScript files in the src directory
+    "eslint.config.js" // Include the ESLint configuration file
+  ]
+}

@@ -1,0 +1,64 @@
+/* Color variables */
+:root {
+  /* Light theme colors */
+  --color-background-light: #F9F7F7;
+  --color-text-light: #333333;
+  --color-heading-light: #222222;
+  --color-primary-light: #3F72AF;
+  --color-primary-dark-light: #112D4E;
+  --color-secondary-light: #DBE2EF;
+  --color-accent-light: #007BFF;
+  --color-border-light: #e0e0e0;
+  --color-card-light: #ffffff;
+  --color-card-hover-light: #f5f5f5;
+  --color-input-light: #f5f5f5;
+  --color-input-focus-light: #ffffff;
+  --color-shadow-light: rgba(0, 0, 0, 0.1);
+  
+  /* Dark theme colors */
+  --color-background-dark: #0F0F0F;
+  --color-text-dark: #e0e0e0;
+  --color-heading-dark: #ffffff;
+  --color-primary-dark: #005B41;
+  --color-primary-dark-dark: #008170;
+  --color-secondary-dark: #232D3F;
+  --color-accent-dark: #00A8E8;
+  --color-border-dark: #333333;
+  --color-card-dark: #1a1a1a;
+  --color-card-hover-dark: #252525;
+  --color-input-dark: #2a2a2a;
+  --color-input-focus-dark: #333333;
+  --color-shadow-dark: rgba(0, 0, 0, 0.3);
+  
+  /* Default to light theme */
+  --color-background: var(--color-background-light);
+  --color-text: var(--color-text-light);
+  --color-heading: var(--color-heading-light);
+  --color-primary: var(--color-primary-light);
+  --color-primary-dark: var(--color-primary-dark-light);
+  --color-secondary: var(--color-secondary-light);
+  --color-accent: var(--color-accent-light);
+  --color-border: var(--color-border-light);
+  --color-card: var(--color-card-light);
+  --color-card-hover: var(--color-card-hover-light);
+  --color-input: var(--color-input-light);
+  --color-input-focus: var(--color-input-focus-light);
+  --color-shadow: var(--color-shadow-light);
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --color-background: var(--color-background-dark);
+  --color-text: var(--color-text-dark);
+  --color-heading: var(--color-heading-dark);
+  --color-primary: var(--color-primary-dark);
+  --color-primary-dark: var(--color-primary-dark-dark);
+  --color-secondary: var(--color-secondary-dark);
+  --color-accent: var(--color-accent-dark);
+  --color-border: var(--color-border-dark);
+  --color-card: var(--color-card-dark);
+  --color-card-hover: var(--color-card-hover-dark);
+  --color-input: var(--color-input-dark);
+  --color-input-focus: var(--color-input-focus-dark);
+  --color-shadow: var(--color-shadow-dark);
+}

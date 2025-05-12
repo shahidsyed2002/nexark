@@ -1,0 +1,108 @@
+/* Typography styles specific to dark theme */
+[data-theme="dark"] {
+  /* Adjust text colors for better readability in dark mode */
+  --text-primary: #f0f0f0;
+  --text-secondary: #b0b0b0;
+  --text-muted: #909090;
+  --text-link: var(--color-primary);
+  --text-link-hover: var(--color-accent);
+  
+  /* Adjust heading colors for better contrast */
+  --heading-primary: #ffffff;
+  --heading-secondary: #e0e0e0;
+  
+  /* Adjust font weights for better readability */
+  --font-weight-normal-dark: 300;
+  --font-weight-bold-dark: 600;
+}
+
+[data-theme="dark"] body {
+  font-weight: var(--font-weight-normal-dark);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: var(--heading-primary);
+  font-weight: var(--font-weight-bold-dark);
+}
+
+[data-theme="dark"] .text-muted {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] a {
+  color: var(--text-link);
+}
+
+[data-theme="dark"] a:hover {
+  color: var(--text-link-hover);
+}
+
+/* Adjust code blocks for better readability in dark mode */
+[data-theme="dark"] code {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] pre {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Adjust blockquotes for better readability */
+[data-theme="dark"] blockquote {
+  border-left-color: var(--color-primary);
+  color: var(--text-secondary);
+}
+
+/* Enhance contrast for small text */
+[data-theme="dark"] small,
+[data-theme="dark"] .small {
+  color: var(--text-secondary);
+}
+
+/* Enhance readability for form elements */
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] textarea:focus,
+[data-theme="dark"] select:focus {
+  border-color: var(--color-primary);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Enhance readability for tables */
+[data-theme="dark"] table {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] th {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: var(--heading-primary);
+}
+
+[data-theme="dark"] td {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Enhance readability for lists */
+[data-theme="dark"] ul,
+[data-theme="dark"] ol {
+  color: var(--text-primary);
+}
+
+/* Enhance contrast for horizontal rules */
+[data-theme="dark"] hr {
+  border-color: rgba(255, 255, 255, 0.1);
+}

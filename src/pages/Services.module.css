@@ -1,0 +1,202 @@
+.services {
+  width: 100%;
+}
+
+/* Hero section */
+.hero {
+  padding: 5rem 1rem;
+  background-color: var(--color-primary);
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url('/wave.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  opacity: 0.9;
+}
+
+/* Services list section */
+.servicesList {
+  padding: 5rem 1rem;
+  background-color: var(--color-background);
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  background-color: var(--color-card);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px var(--color-shadow);
+}
+
+.service:last-child {
+  margin-bottom: 0;
+}
+
+.serviceContent {
+  max-width: 600px;
+}
+
+.serviceContent h2 {
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.serviceContent h3 {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.serviceContent ul {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+}
+
+.serviceContent li {
+  margin-bottom: 0.5rem;
+}
+
+.serviceImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.serviceIcon {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Process section */
+.process {
+  padding: 5rem 1rem;
+  background-color: var(--color-card);
+  text-align: center;
+}
+
+.processSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.processStep {
+  background-color: var(--color-background);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px var(--color-shadow);
+  position: relative;
+}
+
+.processStepNumber {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.processStep h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+/* CTA section */
+.cta {
+  padding: 5rem 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: white;
+}
+
+.cta h2 {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.cta p {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .service {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .service:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .serviceImage {
+    margin-bottom: 0;
+  }
+  
+  .processSteps {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .processStep {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+  }
+}
