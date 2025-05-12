@@ -71,7 +71,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3>Email</h3>
-                <p>info@nexarkstudio.com</p>
+                <p>nexark.studios@gmail.com</p>
               </div>
             </div>
             
@@ -83,7 +83,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3>Phone</h3>
-                <p>(123) 456-7890</p>
+                <p>8367271103,8985770583</p>
               </div>
             </div>
             
@@ -95,7 +95,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3>Address</h3>
-                <p>123 Tech Street, San Francisco, CA 94107</p>
+                <p>Nandyal, Andhra Pradesh, India</p>
               </div>
             </div>
           </div>
@@ -175,7 +175,7 @@ const Contact = () => {
         <div className={styles.mapPlaceholder}>
           <div className={styles.mapOverlay}>
             <h3>Visit Our Office</h3>
-            <p>123 Tech Street, San Francisco, CA 94107</p>
+            <p>Nandyal, Andhra Pradesh, India</p>
             <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">
               Get Directions
             </a>
